@@ -1,0 +1,92 @@
+body {
+  font-family: 'Georgia', serif;
+  background-color: #85aca8;
+  color: #333;
+  margin: 20px;
+}
+
+h1,
+h2,
+h3 {
+  color: #333;
+}
+
+.img-area img {
+  width: 200px;
+  /* Set desired width for the image */
+  height: auto;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-style: none;
+  display: block;
+
+}
+
+.img-area {
+  padding: 5%;
+  margin-right: 10px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 20px 0;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.container {
+  width: 55%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #b3f14fe8;
+  box-shadow: 5px 5px 5px 5px #110f0fab;
+}
+
+/* display: flex;
+    align-items: center; */
+
+.content2 {
+  overflow: hidden;
+  padding: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  background-color: blanchedalmond;
+}
+
+.profile-picture {
+  float: left;
+  margin-right: 20px;
+}
+
+.content {
+  overflow: hidden;
+  /* Clear floats */
+}
+
+th {
+  background-color: #6cee60;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+div[style^="background-color:gray;"] {
+  background-color: #333;
+  color: white;
+  padding: 8px;
+  margin-top: 20px;
+}
